@@ -1,0 +1,18 @@
+name: Ultra oh no repair point
+description: REPAIR and ... oh no!
+type: RepairPoint
+hasItems: false
+hasPower: true
+health: 100000
+size: 1
+requirements: [
+	Ultra-oh-no-item/1
+]
+
+category: units
+research: OHNOFAC
+
+repairRadius: 10000
+repairSpeed: 0.01
+powerUse:10
+
