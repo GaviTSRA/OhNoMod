@@ -23,7 +23,7 @@ consumes: {
 }
 
 radius:1200
-breakage:250000
+breakage:1
 cooldownNormal:0.1
 cooldownLiquid:0.01
 phaseRadiusBoost:10000000000

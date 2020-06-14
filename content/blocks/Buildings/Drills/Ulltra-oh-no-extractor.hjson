@@ -1,0 +1,12 @@
+type: SolidPump
+name: Ultra ohno extractor
+description: Extractor and ... oh no!
+pumpAmount: 999
+result: water
+rotateSpeed: 999999
+
+requirements: [
+  Ultra-oh-no-item/1
+]
+category: liquid
+research: Ultra-oh-no-maker-of-doom

@@ -1,0 +1,31 @@
+type: LaserTurret
+	name: Ultra ohno laser
+	description: Ultra laser and .... ohNO!
+	targetAir: true
+	targetGround: true
+powerUse: 1
+	health: 600000
+	size: 1
+hasPower: true
+	shootType: meltdownLaser
+inaccuracy: 0
+	reload: 0
+	shots: 720
+	recoil: 1000
+	ammoUseEffect: shellEjectBig
+	shootCone: 360
+	rotateSpeed: 1000
+	chargeTime: 0
+	chargeEffects: 0
+	chargeMaxDelay: 0
+	shootDuration: 0.1
+	range: 10000
+	requirements: [
+		Ultra-oh-no-item/1
+	]
+	category: turret
+	research: meltdown
+	shootSound: laserbig
+consumes: {
+power: 0.1
+}
