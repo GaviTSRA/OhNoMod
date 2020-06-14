@@ -1,0 +1,11 @@
+name: Ultra oh no mech pad of doom
+description: Transform yourself to the oh no and become stronger then ever before(and ..... oh no!)
+type: MechPad
+mech: Ultra-oh-no-mech-of-doom
+size: 1
+buildTime: 10
+category: upgrade
+research: Ultra-oh-no-mech-pad
+requirements: [
+  Ultra-oh-no-item/1
+]

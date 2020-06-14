@@ -1,0 +1,78 @@
+type: GroundUnit
+name: Ultra oh no bot
+description: Ultra oh no and ....... oh no!
+speed: 10
+maxVelocity: 1
+flying: true
+health: 4500
+mass: 1
+engineOffset: 10
+engineSize: 100
+range: 500
+attackLength: 1
+//retreatPercent: 0.
+shootCone: 360
+rotatespeed: 10
+baseRotateSpeed: 10
+//rotateWeapon: true
+weaponOffsetY: 3
+targetAir: true
+weapon: {
+  name: grenader-arm
+  length: 1
+  reload: 1
+  shots: 1
+  alternate: true
+  velocityRnd: 0.3
+  lengthRand: 0.3
+  recoil: 5
+  width: 1
+  shootSound: shootBig
+  bullet: {
+    type: ArtilleryBulletType
+    speed: 1
+	drag: 0.02
+	lifetime: 80
+    damage: 1
+    bulletWidth: 0.1
+    bulletHeight: 0.1
+	frontColor: bbbbbb
+	backColor: 999999
+	//trailColor: 666666
+    shootEffect: shootBig
+    smokeEffect: none
+	collides: true
+	collidesTiles: true
+    despawnEffect: flakExplosionBig
+	hitEffect: hitLancer
+	pierce: true
+	knockback: 700
+	bulletSprite: shell
+	inaccuracy: 0
+	fragBullets: 4
+	splashDamage: 4000
+	knockback: 3
+	splashDamageRadius: 5
+	fragVelocityMin: 0.2
+	fragVelocityMax: 1
+	fragBullet: {
+      type: ArtilleryBulletType
+        speed: 1
+	  lifetime: 10
+      damage: 1000
+      bulletWidth: 10
+      bulletHeight: 10
+	  despawnEffect: flakExplosion
+	  collidesTiles: true
+	  hitEffect: none
+	  frontColor: bbbbbb
+	  backColor: 999999
+	  //trailColor: bbbbbb
+	  pierce: true
+	  splashDamage: 2000
+	  splashDamageRadius: 1
+	  knockback: 1.5
+	  bulletSprite: shell
+    }
+  }
+}

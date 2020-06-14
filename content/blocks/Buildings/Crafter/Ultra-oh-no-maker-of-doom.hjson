@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: Ultra oh no maker of doom
+description: Makes oh no and ........ nothing else
+liquidCapacity: 50
+size: 1
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 15
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      copper/1
+    ]
+  }
+}
+requirements: [
+  copper/1
+]
+category: crafting
+research: mechanical-drill
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: Ultra-oh-no-item/1

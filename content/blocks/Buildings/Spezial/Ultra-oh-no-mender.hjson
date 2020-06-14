@@ -1,0 +1,23 @@
+name: Ultra oh no mender
+description: Ultimate mender and .......... oh no!
+type: MendProjector
+
+color:84f491
+
+health: 50000
+
+size: 1
+requirements: [
+Ultra-oh-no-item/1
+]
+category: effect
+research:  Ultra-oh-no-overdrive
+
+hasPower:false
+
+reload:1
+range:1500
+healpercent:100
+phaseRangeBoost:1000
+phaseBoost:1000
+useTime:40000
