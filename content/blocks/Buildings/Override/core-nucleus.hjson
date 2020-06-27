@@ -4,3 +4,4 @@ requirements: [
 buildVisibility: shown
 category: effect
 breakable:true
+research: duo
