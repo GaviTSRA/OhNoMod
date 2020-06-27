@@ -5,7 +5,7 @@ requirements: [
      Ultra-oh-no-item/1
 ]
 health: 999999999
-size:8
+size:1
 category:defense
 research: Ultra-oh-no-maker-of-doom
 craftTime: 1

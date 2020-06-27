@@ -5,7 +5,7 @@ requirements: [
      Ultra-oh-no-item/1
 ]
 health: 999999999
-size:1
+size:8
 category:defense
 research: Ultra-oh-no-wall
 craftTime: 1
