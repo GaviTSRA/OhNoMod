@@ -1,0 +1,11 @@
+type: Pump
+name: Ultra ohno pump
+description: Pump and ... oh no!
+pumpAmount: 999
+rotateSpeed: 999999
+
+requirements: [
+  Ultra-oh-no-item/1
+]
+category: liquid
+research: Ultra-oh-no-maker-of-doom

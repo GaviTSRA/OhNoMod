@@ -1,0 +1,29 @@
+type: Drill
+name: Ultra oh no drill
+description: Very good drill and ........ oh no!
+liquidCapacity: 5
+size: 1
+health: 1000000
+hasPower: false
+hasLiquids: true
+
+requirements: [
+  Ultra-oh-no-item/1
+]
+category: production
+research: Ultra-oh-no-maker-of-doom
+
+tier:500
+drillTime:0
+warmupSpeed: 999
+rotateSpeed: 999
+liquidBoostIntensity:100000
+
+consumes: {
+ liquid: {
+    liquid: water
+	booster:true
+    amount: 10000
+	optional:true
+  }
+}                  

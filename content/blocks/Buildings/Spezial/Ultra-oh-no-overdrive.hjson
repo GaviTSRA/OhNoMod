@@ -1,0 +1,20 @@
+name: Ultra oh no overdrive
+description: Best overdrive and ...... oh no!
+type: OverdriveProjector
+
+health: 10000
+
+size: 1
+requirements: [
+ Ultra-oh-no-item/1
+]
+category: effect
+research:  Ultra-oh-no-launchpad
+hasPower:false
+
+reload:1
+range:1000
+speedBoost:300
+speedBoostPhase:1000
+phaseRangeBoost:100
+useTime:40000

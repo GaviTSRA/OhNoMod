@@ -1,7 +1,7 @@
 Events.on(ClientLoadEvent, () => {
     const wolf = new Planet("wolf", Planets.sun, 2, 1);
     wolf.generator = new SerpuloPlanetGenerator();
-    wolf.mesh = new HexMesh(wolf, 10);
+    wolf.mesh = new HexMesh(wolf, 5);
     wolf.orbitRadius = 20;
     wolf.orbitTime = 1.5 * 30;
     wolf.rotateTime = 10;
@@ -15,7 +15,7 @@ Events.on(ClientLoadEvent, () => {
     wolf.alwaysUnlocked = true;
     wolf.localizedName = "Alpha 1";
 
-    for(var i = 0; i < 31; i++){
+    for(var i = 0; i < 9; i++){
         var h = new SectorPreset("Alpha 1-" + i, wolf, i);
         h.localizedName = "Alpha 1-" + i;
         h.alwaysUnlocked = false;

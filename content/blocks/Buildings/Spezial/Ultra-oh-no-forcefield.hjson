@@ -1,0 +1,31 @@
+name: Ultra oh no forcefield
+description: Field of force and ....... oh no!
+type: ForceProjector
+
+health: 10000
+
+size: 1
+requirements: [
+ Ultra-oh-no-item/1
+]
+category: effect
+research:  Ultra-oh-no-mender
+
+hasPower:false
+consumes: {
+   items: {
+   booster:true
+   optional:true
+    items: [
+	  phase-fabric/1
+    ]
+  }
+}
+
+radius:1200
+breakage:1
+cooldownNormal:0.1
+cooldownLiquid:0.01
+phaseRadiusBoost:10000000000
+phaseUseTime: 100000
+basePowerDraw:0.1

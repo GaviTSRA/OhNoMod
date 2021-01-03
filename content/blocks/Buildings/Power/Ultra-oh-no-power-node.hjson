@@ -1,0 +1,10 @@
+name:Ultra oh no power node
+description: Ultra power routing and ....... oh no!
+type:PowerNode
+laserRange:100
+maxNodes:1000
+research:Ultra-oh-no-power
+  requirements: [
+ Ultra-oh-no-item/1
+]
+category:power
