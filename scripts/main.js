@@ -18,7 +18,7 @@ Events.on(ClientLoadEvent, () => {
     for(var i = 0; i < 9; i++){
         var h = new SectorPreset("Alpha 1-" + i, wolf, i);
         h.localizedName = "Alpha 1-" + i;
-        h.alwaysUnlocked = false;
-	h.difficulty = 5;
+        h.alwaysUnlocked = true;
+	h.difficulty = 4;
     };
 });
