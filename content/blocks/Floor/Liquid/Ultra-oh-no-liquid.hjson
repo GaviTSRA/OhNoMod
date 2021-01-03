@@ -1,8 +1,0 @@
-type: Floor
-name: Ultra-oh-no-liquid
-liquidDrop: Ultra-oh-no-liquid
-isLiquid: true
-drownTime: 150
-speedMultiplier: 100
-variants: 1
-cacheLayer: tar
