@@ -1,7 +1,0 @@
-requirements: [
-		Ultra-oh-no-item/1
-		]
-buildVisibility: shown
-category: effect
-breakable: true
-research:duo
