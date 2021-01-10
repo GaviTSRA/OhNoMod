@@ -1,0 +1,20 @@
+name: OHNOFAC
+description: OHNOSWARM DO NOT SUMMON ALONE - ITS ONLY USEFUL IN A SWARM
+type: UnitFactory
+unitType: OHNOBOT
+size: 8
+health: 1
+produceTime: 0.1
+maxSpawn: 9999
+consumes: {
+  items: {
+    items: [
+      Ultra-oh-no-item/1
+    ]
+  }
+}
+category: units
+research: Ultra-oh-no-maker-of-doom
+requirements: [
+	Ultra-oh-no-item/1
+]

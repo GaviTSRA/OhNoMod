@@ -1,0 +1,95 @@
+name: Ultra oh no mech of doom
+description: Ultra good mech and ......... oh no!
+speed: 10
+maxSpeed: 10
+boostSpeed: 10
+buildPower: 20
+mineSpeed: 10
+drillPower: 20
+mass: 1
+itemCapacity: 500
+engineColor: "cbaa00"
+compoundSpeed: 50
+compoundSpeedBoost: 70
+flying: true
+health: 4500
+engineOffset: 0
+engineSize: 1
+weaponOffsetX: 0
+weaponOffsetY: 0
+//turnCursor: false
+weapon: {
+  name: shell-shocker
+  length: 1
+  width: 1
+  shots: 1
+  reload: 1
+  recoil: 0
+  ignoreRotation: false
+  shootSound: missile
+  alternate: false
+  bullet: {
+    //name: MortarMechBullet
+    type: ArtilleryBulletType
+    speed: 18
+    drag: 0.042
+    damage: 1000
+	splashDamage: 1
+	splashDamageRadius: 1
+    bulletWidth: 1
+    bulletHeight: 1
+	lifetime: 50
+	frontColor: dd9933
+	backColor: ffcc22
+	//trailColor: ffbb11
+    shootEffect: shootBig
+    despawnEffect: explosion
+	hitEffect: flakExplosionBig
+	pierce: true
+	inaccuracy: 0
+	keepVelocity: false
+	homingPower: 1
+	homingRange: 1
+	splashDamage: 1
+	splashDamageRadius: 1
+	bulletSprite: missile
+	fragBullets: 10
+	fragVelocityMin: 2.5
+	fragVelocityMax: 4.0
+	fragBullet: {
+      type: BasicBulletType
+      speed: 1
+	  lifetime: 50
+      damage: 1
+	  collidesAir: true
+      bulletWidth: 100
+      bulletHeight: 100
+	  despawnEffect: shootBigSmoke
+	  hitEffect: none
+	  frontColor: ee993e
+	  backColor: 002fff
+	  pierce: true
+	  bulletSprite: bullet
+	  knockback: 0
+	  fragBullets: 50
+	  fragVelocityMin: 2
+	  fragVelocityMax: 4
+	  fragBullet: {
+        type: BasicBulletType
+        keepVelocity: true
+	    lifetime: 10
+        damage: 1
+	    collidesAir: true
+        bulletWidth: 100
+        bulletHeight: 100
+	    despawnEffect: none
+	    hitEffect: none
+	    frontColor: eebb0e
+	    backColor: a06508
+	    pierce: true
+	    bulletSprite: shell
+	    knockback: 0
+    }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+name: Ultra oh no launchpad
+description: Perfect launchpad and ........ oh no!
+type: LaunchPad
+itemCapacity: 10
+hasItems: true
+health: 10000
+consumesPower:false
+size: 1
+launchTime: 1
+requirements: [
+ Ultra-oh-no-item/1
+]
+category: effect
+research: Ultra-oh-no-vault
